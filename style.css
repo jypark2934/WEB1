@@ -2,7 +2,15 @@ body{
   margin:0;
   }
   a {
-    color:black;
+    color:blue;
+    text-decoration: none;
+  }
+  a:active{
+    color:green;
+  }
+  #Selected{
+    color:red;
+    text-decoration: underline;
   }
   h1{
     font-size: 45px;

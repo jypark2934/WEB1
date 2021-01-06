@@ -10,17 +10,22 @@
 
   gtag('config', 'UA-186280412-2');
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="colors.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>hunter - Marksmanship</title>
   </head>
   <body>
     <h1><a href="index.html">Hunter</a></h1>
+    <input type="button" value="Night" onclick="
+      NightDayHandler(this);
+    ">
     <div id="grid">
   <ol>
     <li><a href="1.html">Survival Hunter(생존)</a></li>
     <li><a href="2.html">Beast Mastery Hunter(야수)</a></li>
-    <li><a href="3.html"style="color:red;text-decoration:underline;">Marksmanship(사격)</a></li>
+    <li><a href="3.html" id="Selected">Marksmanship(사격)</a></li>
     </ol>
     <div id="article">
     <h2>Marksmanship(사격)</h2>
